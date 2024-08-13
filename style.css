@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:grey;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    padding: 40px 28px 40px;
+}
+.watch{
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.controler{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 30px 30px;
+    justify-content: space-around;
+}
+.container{
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+#startbtn{
+    background-color: green;
+    color:white;
+    border:none;
+    border-radius: 30px;
+}
+#stopbtn{
+    background-color: red;
+    color:white;
+    border:none;
+    border-radius: 30px;
+}
+#restartbtn{
+    background-color: blue;
+    color:white;
+    border:none;
+    border-radius: 30px;
+}
+button{
+    height: 40px;
+    width:90px;
+    font-size: 25px;
+    font-weight:bold;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+#startbtn:hover{
+    background-color: lightgreen;
+}
+#stopbtn:hover{
+    background-color:rgb(173, 101, 101)
+}
+#restartbtn:hover{
+    background-color: rgb(69, 69, 126);
+}
+.box{
+    height:200px;
+    width:350px;
+    border:1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    background-color: black;
+    color:white;
+    justify-content: space-around;
+}
